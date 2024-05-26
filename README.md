@@ -2,7 +2,7 @@
 # Web-app for monitoring reviewers performance using Gradio
 
 ## Introduction
-This project was done for improving the code review quality so that more defects can be caught. The code review was done in platform called <b>Crucible</b> by [Atlassian](https://www.atlassian.com/software/crucible)
+This project was done for improving the code review quality so that more defects can be caught by creating a competitive environment among reviewers. The code review was done in platform called <b>Crucible</b> by [Atlassian](https://www.atlassian.com/software/crucible)
 
 <h2>Data</h2>
 <br>
@@ -15,9 +15,9 @@ But this is for a single review. What if we want to see performance of the revie
 <br>
 <ul>
 <br>
-<li>It utilizes crucible-api endpoints to collect all datas of each review based on the timeframe we want.</li>
+<li>It utilizes <b>crucible-api</b> endpoints to collect all datas of each review based on the timeframe we want.</li>
 <li>Makes a json of the whole data</li>
-<li>Creates a pandas dataframe from the json which contains these datas as per the timeframe given:</li>
+<li>Creates a <b>pandas</b> dataframe from the json which contains these datas as per the timeframe given:</li>
 <ul><br>
   ✅ Associate/reviewer IDs <br>
   ✅ Time spent on reviews (in hours) <br>
